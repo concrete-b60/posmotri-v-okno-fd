@@ -224,15 +224,15 @@ ol {
 
 .search-form__textfield:active {
   border: 1px solid #fff;
-}      
+}
 
 .search-form__textfield:focus {
   outline: none;
-}           
+}
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
   outline: 1px solid #fff;
-} 
+}
 
 .search-form__pseudo-checkbox {
   display: flex;
@@ -248,10 +248,10 @@ ol {
 .search-form__pseudo-checkbox::after {
   content: '';
   display: none;
-  width: 15px;           
+  width: 15px;
   height: 15px;
   background-color: #fff;
-} 
+}
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   display: block;
@@ -259,11 +259,11 @@ ol {
 
 .search-form__checkbox:focus {
   outline: none;
-}           
+}
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
-} 
+}
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
