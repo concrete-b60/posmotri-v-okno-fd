@@ -114,7 +114,7 @@ ol {
 }
 
 .content__video-card {
-  display: flex; 
+  display: flex;
   align-items: flex-start;
   gap: 2px;
 }
@@ -127,9 +127,11 @@ ol {
 }
 
 .content__video-card-description-container { 
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  flex-grow: 1; 
+  flex-grow: 1;
+  width: 196px;
+  padding-top: 2px;
 }
 
 .search-form__fieldset-title {
@@ -147,19 +149,14 @@ ol {
   text-transform: uppercase;
 }
 
-.content__accent{
+.content__accent {
   color: #545050;
 }
-  
+
 .content__card-link {
   display: block;
   color: #fff;
   text-decoration: none;
-}
-
-.content__video-card-description-container {
-  width: 196px;
-  padding-top: 2px;
 }
 
 .content__video-card-title {
@@ -214,10 +211,10 @@ ol {
 .search-form__textfield {
   min-width: 225px;
   border: none;
-  border-top: 1px solid #fff; 
+  border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   padding-left: 0;
-  outline: none; 
+  outline: none;
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -237,7 +234,7 @@ ol {
   outline: 1px solid #fff;
 } 
 
-.search-form__pseudo-checkbox{
+.search-form__pseudo-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,10 +246,10 @@ ol {
 }
 
 .search-form__pseudo-checkbox::after {
-  content: '';          
+  content: '';
   display: none;
-  width: 15px;                        
-  height: 15px;                     
+  width: 15px;                  
+  height: 15px;               
   background-color: #fff;
 } 
 
@@ -267,10 +264,6 @@ ol {
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
 } 
-  
-.search-form__submit-button {
-  width: 194px;
-}
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
@@ -278,7 +271,7 @@ ol {
 
 .button {
   height: 34px;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
   color: inherit;
   font-family: inherit;
   font-weight: 700;
@@ -291,16 +284,16 @@ ol {
   min-width: 194px;
 }
 
-.more-button { 
+.more-button {
   width: 100%;
   margin-top: 30px;
 }
 
 button:focus {
-  outline: none; 
+  outline: none;
 }
 
-.button:hover { 
+.button:hover {
   text-decoration: underline;
 }
 
@@ -322,7 +315,7 @@ button:focus {
   cursor: pointer;
 }
 
-.content__list-item:hover { 
+.content__list-item:hover {
   text-decoration: underline;
 }
 
